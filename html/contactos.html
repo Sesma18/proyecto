@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <nav>
+        
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="discografia.html">Discografia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+            </header>
+
+            <main>
+
+
+            
+            <section>Contactos
+                <div>
+                    <h2>Management</h2>
+                    <p>Manager: Fernando Travi</p>
+                </div>
+
+                <div>
+                    <p>Asistente: Teresa Albornoz</p>
+            </div>
+
+            <div>
+                <h2>Prensa</h2>
+                <p>Amelia Alvarez: sectorprensa@cerati.com</p>
+            </div>
+            </section>
+
+                <form action="enviar_contacto.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    
+                    <button type="submit" >Enviar</button>
+                </form>
+            </main>
+        
+            <footer>
+                <h4>Redes de Gustavo Cerati</h4>
+                
+                <div id="padreRedes">
+                    <a id="hijoRedes1" href="https://www.instagram.com/cerati/?hl=es">Instagram</a>
+                    <a id="hijoRedes2" href="https://www.youtube.com/channel/UCZuU_8S5VItTh-InZ0CV-rA">Youtube</a>
+                    <a id="hijoRedes3" href="https://open.spotify.com/intl-es/artist/1QOmebWGB6FdFtW7Bo3F0W">Spotify</a>
+                </div>
+                
+            </footer>
+    
+</body>
+</html>
