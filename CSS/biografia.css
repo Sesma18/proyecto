@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Nav */
 nav{
     height: 55px;
     background-color: #00BFFF
@@ -26,8 +26,9 @@ nav{
         color: white;
         font-size: 24px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+      
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         }
@@ -46,8 +47,9 @@ nav{
         color: white;
         font-size: 24px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+    
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         }
@@ -66,18 +68,52 @@ nav{
         font-size: 24px;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
+      
       font-style: normal;
         text-decoration: none;
         font-weight: bold;
         }
+
 /* MAIN */
 
+
+
 main {
-    height: 605px;
+    height: 990px;
     background-color: rgb(0, 0, 0);
-    
-    
-    }
+}
+
+h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    height: 100px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-size: 25px;
+    width: 60%; 
+    float: left; 
+    margin-right: 20px; 
+}
+
+img {
+    float: right;
+    width: 30%; 
+    height: auto;
+}
+
+
+
+
 
 /* FOOTER */
 
@@ -90,9 +126,9 @@ footer{
         color: white;
         font-size: 30px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
- }
+        font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal; }
     
     #padreRedes {
         flex-direction: row;
@@ -105,8 +141,9 @@ footer{
         color: white;
         font-size: 20px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+      
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         order: 1;
@@ -117,8 +154,9 @@ footer{
         color: white;
         font-size: 20px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+     
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         order: 2;
@@ -129,8 +167,8 @@ footer{
         color: white;
         font-size: 20px;
         font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
+    font-optical-sizing: auto;
+  font-style: normal;
         text-decoration: none;
          font-weight: bold;
          order: 3;

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Nav */
 nav{
     height: 55px;
     background-color: #00BFFF
@@ -46,8 +46,8 @@ nav{
         color: white;
         font-size: 24px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         }
@@ -70,8 +70,8 @@ nav{
         text-decoration: none;
         font-weight: bold;
         }
-/* MAIN */
 
+/* MAIN */
 main {
     height: 605px;
     background-color: rgb(0, 0, 0);
@@ -105,8 +105,8 @@ footer{
         color: white;
         font-size: 20px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         order: 1;
@@ -117,8 +117,8 @@ footer{
         color: white;
         font-size: 20px;
         font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
+        font-optical-sizing: auto;
+      font-style: normal;
         text-decoration: none;
         font-weight: bold;
         order: 2;
