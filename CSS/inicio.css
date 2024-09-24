@@ -2,28 +2,66 @@
     margin: 0;
     padding: 0;
 }
-
+/* Nav */
 nav{
-height: 55px;
-background-color: rgb(3, 214, 230);
-
-}
-
-li{ 
-    display: inline-block;
-width: 19%;
-text-align: center;
-padding-top: 1%;
-
-}
-
-.Uno {
+    height: 55px;
+    background-color: rgb(3, 214, 230);
+    
+    }
+    
+    #padreNav{ 
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+    
+    
+    
+    }
+    
+    #inicio{ 
+        color: white;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        }
+    
+    #biografia { 
     color: white;
-    font-size: 26px;
+    font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-weight: bold;
+    
     }
+    #contactos { 
+        color: white;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        }
+    #discografia { 
+         color: white;
+         font-size: 24px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         text-decoration: none;
+         font-weight: bold;
+            }
+    
+     #galeria { 
+        color: white;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        }
+/* MAIN */
+
 main {
 height: 605px;
 background-color: rgb(0, 0, 0);
@@ -51,6 +89,8 @@ background-color: rgb(0, 0, 0);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Footer */
+
 footer{
 height: 117px;
 background-color: rgb(3, 214, 230);
@@ -63,34 +103,40 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-#Redes {
-font-size: 20px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-align: center;
-text-decoration: none;
-color: white;
 
+#padreRedes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
 }
-#RedesDos {
+
+#hijoRedes1 {
+    color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     text-decoration: none;
-    padding-left: 650px;
-    position: relative;
-    margin-top: 5px;
-    color: white;
+    font-weight: bold;
+    order: 1;
     
-    }
-    #RedesTres {
-        font-size: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        text-decoration: none;
-        padding-left: 500px;
-        color: white;
-        
-        
-        
-       
-        }
+}
+
+#hijoRedes2{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    order: 2;
+
+}
+
+#hijoRedes3{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+     font-weight: bold;
+     order: 3;
+
+}
