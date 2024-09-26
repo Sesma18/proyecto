@@ -6,86 +6,85 @@
 nav{
     height: 55px;
     background-color: #00BFFF
-    
+
     }
     
-    #padreNav{ 
-        height: 55px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+#padreNav{ 
+     height: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
     list-style-type: none;
-    
-    
-    
+
     }
     
-    #inicio{ 
-        color: white;
-        font-size: 24px;
-        font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  font-style: normal;
-        text-decoration: none;
-        font-weight: bold;
-        }
-    
-    #biografia { 
+#inicio{ 
     color: white;
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-  font-style: normal;
+    font-style: normal;
     text-decoration: none;
     font-weight: bold;
+
+}
+    
+#biografia { 
+  color: white;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
     
     }
-    #contactos { 
-        color: white;
-        font-size: 24px;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
-        text-decoration: none;
-        font-weight: bold;
-        }
-    #discografia { 
-         color: white;
-         font-size: 24px;
-         font-family: "Inter", sans-serif;
-         font-optical-sizing: auto;
-       font-style: normal;
-         text-decoration: none;
-         font-weight: bold;
-            }
+#contactos { 
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+#discografia { 
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+}
     
-     #galeria { 
-        color: white;
-        font-size: 24px;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
-        text-decoration: none;
-        font-weight: bold;
-        }
+#galeria { 
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
 /* MAIN */
 main {
     height: 605px;
     background-color: rgb(0, 0, 0);
-    
-    
-    }
 
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Inter", sans-serif;
   }
   
-  h1 {
+h1 {
     font-size: 32px;
     text-align: center;
     color: #00d1ff; 
@@ -93,21 +92,21 @@ main {
     
   }
   
-  h2 {
-     font-size: 24px;
-      color: #fff;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #00d1ff;
-      padding-bottom: 5px;
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00d1ff;
+    padding-bottom: 5px;
       
   }
   
   h3 {
-      font-size: 24px;
-      color: #fff;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #00d1ff;
-      padding-bottom: 5px;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00d1ff;
+    padding-bottom: 5px;
   }
   
   ul {
@@ -183,3 +182,49 @@ footer{
          order: 3;
     
     }
+
+/* Móviles */
+    /* XS SM */
+
+    /* XS SM */
+
+    @media only screen and (max-width: 320px) {
+
+  
+      #padreNav li a {
+          font-size: 13px;
+        }
+    
+      p {
+        width: 100%;
+        float: none;
+        font-size: 10px;
+      }
+    
+      img {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+      }
+    
+      main {
+        padding: 10px;
+        height: 750px;
+        
+      }
+  
+      h4{font-size: 13px;
+  
+      }
+  
+    }
+    
+    /* PC */
+    @media only screen and (min-width: 992px) {
+      #padreNav {
+        flex-direction: row;
+      }
+    main{
+    height: 750px;
+    }
+  }

@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /* Nav */
 nav{
@@ -9,20 +9,17 @@ nav{
     
     }
     
-    #padreNav{ 
-        height: 55px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+#padreNav{ 
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
     list-style-type: none;
-    
-    
-    
     }
     
-    #inicio{ 
+#inicio{ 
         color: white;
         font-size: 24px;
         font-family: "Inter", sans-serif;
