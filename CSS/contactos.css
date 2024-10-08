@@ -249,3 +249,52 @@ h4{
     order: 3;
     
     }
+
+
+    @media (max-width: 991px) {
+
+      #formularioySeccion {
+        flex-direction: column;
+        padding-top: 20px;
+      }
+    
+      #padreNav a {
+        font-size: 16px;
+        padding: 10px;
+      }
+    
+      h4 {
+        font-size: 20px;
+      }
+
+main{
+  height: 800px;
+}
+#seccion{
+
+width: 200px;
+}
+
+    }
+    
+    @media (min-width: 992px) {
+      #formularioySeccion {
+        padding: 10px;
+      }
+    
+      h2 {
+        font-size: 20px;
+      }
+    
+      p {
+        font-size: 14px;
+      }
+    
+      input, textarea {
+        font-size: 14px;
+      }
+    
+      button {
+        font-size: 14px;
+      }
+    }

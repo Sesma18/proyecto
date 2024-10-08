@@ -1,16 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  width: 100%;
+  overflow-x: hidden; 
+}
+body {
+  width: 100%;
+  overflow-x: hidden; 
 }
 
 /* NAV */
-nav{
+nav {
   height: 55px;
-  background-color: #00BFFF
-
+  background-color: #00bfff;
 }
 
-#padreNav{ 
+#padreNav {
   height: 55px;
   display: flex;
   flex-direction: row;
@@ -18,207 +28,185 @@ nav{
   justify-content: space-around;
   text-align: center;
   list-style-type: none;
-
 }
 
-#inicio{ 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-    }
-
-#biografia { 
-   color: white;
-   font-size: 24px;
-   font-family: "Inter", sans-serif;
-   font-optical-sizing: auto;
-   font-style: normal;
-   text-decoration: none;
-   font-weight: bold;
-
-}
-
-#contactos { 
+#padreNav a {
   color: white;
   font-size: 24px;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   text-decoration: none;
   font-weight: bold;
 }
 
-#discografia { 
-     color: white;
-     font-size: 24px;
-     font-family: "Inter", sans-serif;
-     font-optical-sizing: auto;
-   font-style: normal;
-     text-decoration: none;
-     font-weight: bold;
-        }
-
-#galeria { 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-    }
-           
-        
-    
-
-
 /* MAIN */
 main {
-  height: 1200px;
   background-color: rgb(0, 0, 0);
-
-
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
-h1{
-  text-align: center;
+
+
+
+h1 {
   font-size: 50px;
+  text-align: center;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   color: white;
-
+  margin-bottom: 30px;
 }
 
 h2{
+  font-size: 40px;
   text-align: center;
-  font-size: 50px;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   color: white;
-  
-  }
+  margin-bottom: 30px;
+}
 
 
-h3{
+h3 { text-align: center;
+font-family: "Inter", sans-serif;
+font-style: normal;
+color: white;
+margin-bottom: 30px;
+}
+
+
+h4 { 
   text-align: center;
-  font-size: 50px;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   color: white;
-  margin-top: 100px; 
-
-  }
-
-img{
-    
-  display: block; padding-left: 387px;
-  width: 52%;
-  height: auto; 
+  margin-bottom: 30px;
 }
 
-p {
-  color: white;
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
-
-.imagenes1{
-  width: 100%; 
-  height: 500px; 
-  object-fit: contain; 
-  background-color: #000; 
-  margin-left: -150px; 
- 
-}
-
-.imagenes2 {
-  width: 100%; 
-  height: 500px; 
-  object-fit: contain; 
-  background-color: #000; 
-  margin-left: -150px; 
-  position: relative;
-  top: 100px
- 
-}
-
-
 
 .carousel-item {
   height: 500px;
 }
 
-@media (max-width: 768px) {
-  .imagenes1, .imagenes2 {
-  height: 300px; 
+.imagenes1  {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #000;
+  max-height: 500px;
+}
+.imagenes2 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #000;
+  max-height: 500px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* FOOTER */
+footer {
+  background-color: #00bfff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+}
+
+#padreRedes {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#padreRedes a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+ 
+  #padreNav a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 28px;
+  }
+
+  .imagenes1 {
+    height: auto; 
+    max-height: 400px; 
+    min-height: 250px; 
+    width: 100%; 
+  }
+  .imagenes2 {
+    height: auto; 
+    max-height: 400px; 
+    min-height: 250px; 
+    width: 100%; 
+  }
+
+  footer h4 {
+    font-size: 24px;
+  }
+
+  footer a {
+    font-size: 18px;
   }
 }
 
 
-/* FOOTER */
+@media (min-width: 992px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-footer{
-    height: 117px;
-    background-color: #00BFFF
-    }
+  h1 {
+    font-size: 50px;
+  }
 
-  h4{     
-    color: white;
-    font-size: 30px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  h2{
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+
+  .imagenes1 {
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+  }
+
+  .imagenes2 {
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+  }
 }
-    
-#padreRedes {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    display: flex;
-    }
-    
-#hijoRedes1 {
-    color: white;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-    order: 1;
-        
-    }
-    
-#hijoRedes2{
-    color: white;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-    order: 2;
-    
-    }
-    
-    #hijoRedes3{
-      color: white;
-      font-size: 20px;
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-      text-decoration: none;
-      font-weight: bold;
-      order: 3;
-    
-    }
-
