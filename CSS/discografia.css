@@ -186,9 +186,9 @@ footer{
 /* Móviles */
     /* XS SM */
 
-    /* XS SM */
+   
 
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 991px) {
 
   
       #padreNav li a {
@@ -228,3 +228,5 @@ footer{
     height: 750px;
     }
   }
+
+

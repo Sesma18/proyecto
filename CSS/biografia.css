@@ -176,7 +176,7 @@ h4{
 
     /* XS SM */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 991px) {
 
   
     #padreNav li a {
@@ -190,22 +190,35 @@ h4{
     }
   
     img {
-      width: 100%;
+      width: 340px;
+      height: 340px;
       float: none;
       margin-top: 20px;
+      padding-left: 120px;
+      max-width: 100%;
+      height: auto;
+    }
+    .imagenCerati{
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      height: 100vh;           
+      max-width: 100%;
+      height: auto;
+  }
     }
   
     main {
       padding: 10px;
-      height: 950px;
-      ;
+      height: 840px;
+      
     }
 
     h4{font-size: 13px;
 
     }
 
-  }
+  
   
   /* PC */
   @media only screen and (min-width: 992px) {
