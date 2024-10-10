@@ -1,0 +1,32 @@
+footer {
+    height: 117px;
+    background-color: #00bfff;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+  }
+  #padreRedes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  #hijoRedes1,
+  #hijoRedes2,
+  #hijoRedes3 {
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }

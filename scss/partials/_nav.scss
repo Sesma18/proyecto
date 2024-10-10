@@ -1,0 +1,33 @@
+@mixin estilo-texto($color-texto, $tamano-fuente, $weight: normal) {
+    color: $color-texto;
+    font-size: $tamano-fuente;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: $weight;
+  }
+  
+  /* Nav */
+  nav {
+    height: 55px;
+    background-color: #00bfff;
+  }
+  
+  #padreNav {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  #inicio,
+  #biografia,
+  #contactos,
+  #discografia,
+  #galeria {
+    @include estilo-texto(white, 24px, bold);
+    text-decoration: none;
+  }

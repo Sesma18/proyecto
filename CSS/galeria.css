@@ -121,6 +121,14 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+footer h4 {
+  color: white;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+}
 
 h4 {
   color: white;
@@ -171,13 +179,8 @@ h4 {
     width: 100%; 
   }
 
-  footer h4 {
-    font-size: 24px;
-  }
 
-  footer a {
-    font-size: 18px;
-  }
+
 }
 
 
